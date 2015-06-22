@@ -15,11 +15,24 @@ class HomeController extends BaseController {
 	|
 	*/
 
-	public function showWelcome()
+	public function showHome()
 	{
-		return View::make('hello');
+		return View::make('home');
 	}
 	public function showAboutMe()
 	{
 		return View::make('about');
 	}
+	public function showGallery()
+	{
+		return View::make('gallery');
+	}
+	public function showLinks()
+	{
+		return View::make('links');
+	}
+	public function showLocation()
+	{
+		return View::make('location');
+	}
+}
